@@ -25,6 +25,7 @@ Template do Projeto de Pesquisa de Usuários, desenvolvido com Javascript, HTML 
 #####     - 5º usar template literals.
 ##### (✓) Invocar e implementar buscarPorNome ( ) com filter.
 
+## Imagens da aplicação:
 
 ![image](https://user-images.githubusercontent.com/90730383/155040721-fdc8ee72-3035-4254-a7ac-67b233b63e75.png)
 
