@@ -1,25 +1,25 @@
 Check ✓
 
-( ) Criar variáveis de estado da aplicação
-( ) Criar eventListnener de load e invocar a função mapearDom() e fetchPessoas()
-( ) Implementar mapearDom() com mapeamento de elementos 
+(✓) Criar variáveis de estado da aplicação
+(✓) Criar eventListnener de load e invocar a função mapearDom() e fetchPessoas()
+(✓) Implementar mapearDom() com mapeamento de elementos 
    do DOM 
-( ) Implementar fetchPessoas() com async/await 
+(✓) Implementar fetchPessoas() com async/await 
    com busca em 'https://randomuser.me/api/?seed=javascript&results=100&nat=BR&noinfo' 
    e transformação para obtenção de name, picture, dob e gender. 
    Ao final, invocar render();
-( ) Implementar render() com invocação a funções menores: 
+(✓) Implementar render() com invocação a funções menores: 
     renderListaPessoas(), atualizarEstatisticas().
-( ) Implementar renderListaPessoas() 
+(✓) Implementar renderListaPessoas() 
     - 1º ordenar com localeCompare,
     - 2º com forEach trazer nome, foto e idade e exibir do DOM.
     - 3º usar template literals.
-( ) Implementar atualizarEstatisticas() 
+(✓) Implementar atualizarEstatisticas() 
     - 1º Mostrar qtd usuarios e exibir do DOM.
     - 2º Exibir o usuarios masculino e feminino com filter e exibir do DOM.
     - 3º Exibir soma das idades com reduce e exibir do DOM.
     - 4º Exibir média de idades  e exibir do DOM.
     - 5º usar template literals.
-( ) Invocar e implementar buscarPorNome () com filter.
+(✓) Invocar e implementar buscarPorNome () com filter.
 
 
