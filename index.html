@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+     
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Desafio - Pesquisa de Usuários</title>
+  </head>
+  <body>
+    <h1>Pesquisa de Usuários</h1>
+
+    <div class="search-people">
+      <input type="text" id="inputBuscar" placeholder="Digite o nome do usuário"></input>
+      <button class="btn" id="btnBuscar">Pesquisar</button>
+    </div>
+
+    <div id="container">
+
+      <div class="card-users">
+        <span> <span id="spanQtdeUsuarios"></span> usuário(s) encontrado(s)</span>
+        <div id="divMostrarUsuarios"></div>
+      </div>
+
+      <div class="card-statistics">
+        <span>Estatísticas</span>
+        <div id="statistics">
+          <ul>
+            <li>Sexo Masculino: <span id="spanQtdeMasculino"></span></li>
+            <li>Sexo Feminino: <span id="spanQtdeFeminino"></span></li>
+            <li>Soma das idades: <span id="spanSomaIdades"> </span></li>
+            <li>Média das idades: <span id="spanMediaIdades"></span></li>
+          </ul>
+        </div> 
+      </div>
+      
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

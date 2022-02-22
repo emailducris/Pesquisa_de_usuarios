@@ -1,0 +1,77 @@
+body {
+  font-family: 'tahoma', sans-serif;
+  /*background-color: lemonchiffon;*/
+  color: rgba(3, 14, 14, 0.7);
+  text-align: center;
+}
+
+#container {
+  display: flex;
+  /* alinha ao centro e ao meio
+  align-items: center;*/
+  /* alinha ao centro*/
+  justify-content: center;
+}
+
+.search-people,
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-people {
+  padding-bottom: 20px;
+}
+
+.card-users,
+.card-statistics {
+  border: 2px solid rgba(100, 148, 237, 0.705);
+  border-radius: 10px;
+  margin-right: 50px;
+  width: 25%;
+  padding: 10px;
+  text-align: left;
+}
+
+.card-statistics {
+  height: 130px;
+}
+
+ul li {
+  list-style: none;
+}
+
+.add {
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+#users-list-grid {
+  padding-top: 10px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.btn {
+  border: 1px solid rgba(100, 148, 237, 0.705);
+  border-radius: 4px;
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 10px;
+  width: 100px;
+  height: 30px;
+  color: solid rgba(100, 148, 237, 0.705);
+}
+
+#inputSearch {
+  border: 0;
+  border-bottom: 1px solid rgba(100, 148, 237, 0.705);
+  box-sizing: border-box;
+  width: 40%;
+  height: 1.5rem;
+  font-size: 1rem;
+  color: cadetblue;
+}
